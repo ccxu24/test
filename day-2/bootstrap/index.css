@@ -1,0 +1,32 @@
+.box-text1 {
+    color: white;
+}
+
+.box-text {
+    color: black;
+}
+
+.box {
+    height:150px;
+    border:5px solid darkgrey;
+}
+
+.col1 {
+    background-color: blue;
+}
+
+.col3 {
+    background-color: yellow;
+}
+
+.col4 {
+    background-color: rgb(32, 210, 32);
+}
+
+.col2 {
+    background-color: red;
+}
+
+.col5 {
+    background-color: rgb(250, 76, 224);
+}

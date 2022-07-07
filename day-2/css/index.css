@@ -1,0 +1,65 @@
+.container {
+    width: 75%
+    padding: 16px;
+    margin: auto;
+
+/*padding: 16px; */
+/*padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 16px;
+padding-right: 16px;*/
+
+/*padding: 32px 0px 64px 50px; */
+/*padding: 32px 16px; updown, leftright*/ 
+}
+
+
+.box-1 {
+    color: coral;
+}
+
+.box-2 {
+    color:grey;
+}
+
+body {
+    background-color:lightgray;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    /*color: green; */
+    color: rgb(8,107,49)
+}
+
+.categories {
+    padding: 16px;
+    border: 1px solid green;
+}
+
+.categories li {
+    list-style: none;
+    border-bottom: 1px solid blue;
+    /*text-align: center;*/
+}
+
+.categories li:hover {
+    background-color:rgb(58,122,58);
+    color:white;
+    border-bottom: 1px solid rgb(255,255,255);
+}
+
+.myForm {
+    margin: 16px;
+    padding: 16px;
+}
+
+.myForm .form-group {
+
+}
+
