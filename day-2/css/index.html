@@ -1,73 +1,248 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CSS Cheat Sheet</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-    <div>
-        <p>
-            This is the first paragraph
-        </p>
-    <br>
-        <p>
-            This is the second paragraph
-        </p>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Cheat Sheet</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSS Cheat Sheet</h1>
+        <div class="paragraph-1">
+
+            <h2>Best Cheat Sheet N/A</h2>
+            <p>
+                This is the first paragraph which is rather short.
+
+                <a href="#">Read more</a>
+
+            </p>
+        </div>
+
+        <div class="paragraph-2">
+            <p>
+               This is the second paragraph which is also quite short.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="categories">
+            <ul>
+                <li> Category 1</li>
+                <li> Category 2</li>
+                <li> Category 3</li>
+                <li> Category 4</li>
+            </ul>
+        </div>
+
+
+        <div class="products">
+            <ul>
+                <li> Product 1</li>
+                <li> Product 2</li>
+                <li> Product 3</li>
+                <li> Product 4</li>
+            </ul>
+        </div>
+
+
+        <!--Css Form-->
+        <form class="myForm">
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea></textarea>
+            </div>
+            <div>
+                <input type="submit" class="button">
+            </div>
+        </form>
+
+
+        <!--Flex box-->
+
+        <div class="flex-box">
+
+            <div class="flex-item card">
+
+                <div class="card-header">
+                    <h3>Card 1</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+
+            <div class="flex-item card">
+
+                <div class="card-header">
+                    <h3>Card 2</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+            <div class="flex-item card">
+
+                <div class="card-header">
+                    <h3>Card 3</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+            <div class="flex-item card">
+
+                <div class="card-header">
+                    <h3>Card 4</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!--Grid-->
+
+        <div class="grid">
+            <div class="grid-item card">
+
+                <div class="card-header">
+                    <h3>Card 5</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+
+            <div class="grid-item card">
+
+                <div class="card-header">
+                    <h3>Card 5</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+
+            <div class="grid-item card">
+
+                <div class="card-header">
+                    <h3>Card 5</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+
+            <div class="grid-item card">
+
+                <div class="card-header">
+                    <h3>Card 5</h3>
+                </div>
+
+                <div class="card-content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--Color grid-->
+
+        <div class="color-grid">
+
+            <div class="color-grid-item box-1">
+                <div class="box-text">
+                    Hello box-1
+                </div>
+            </div>
+
+            <div class="color-grid-item box-2">
+                <div class="box-text">
+                    Hello box-2
+                </div>
+            </div>
+
+            <div class="color-grid-item box-3">
+                <div class="box-text">
+                    Hello box-3
+                </div>
+            </div>
+
+            <div class="color-grid-item box-4">
+                <div class="box-text">
+                    Hello box-4
+                </div>
+            </div>
+
+            <div class="color-grid-item box-5 ">
+                <div class="box-text">
+                    Hello box-5
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
-    </body>
 
-    <hr>
+    <div style="margin-top: 400px;"></div>
 
-    <div class="categories">
-        <ul>
-            <li>Category 1</li>
-            <li>Category 2</li>
-            <li>Category 3</li>
-            <li>Category 4</li>
-        </ul>
-    </div>
-
-    <div class="products">
-        <ul>
-            <li>Product 1</li>
-            <li>Product 2</li>
-            <li>Product 3</li>
-            <li>Product 4</li>
-        </ul>
-    </div>
-
-     <!-- CSS forms -->
-     <form class="myForm">
-        <div class="form-group">
-            <labels>First Name</labels>
-            <input type="text" name="firstName" id="firstName">
-        </div>
-        <br>
-        <div class="form-group">
-            <labels>Last Name</labels>
-            <input type="text" name="lastName" id="lastName">
-        </div>
-        <br>
-        <div class="form-group">
-            <labels>Email</labels>
-            <input type="email" name="email" id="email">
-        </div>
-        <br>
-        <div class="form-group">
-            <label>Message</label>
-            <textarea></textarea>
-        </div>
-        <div>
-            <input type="submit" value="button">
-        </div>
-     </form>
-
-     <script src="" async defer></script>
+    <script src="" async defer></script>
+</body>
 
 </html>
-
