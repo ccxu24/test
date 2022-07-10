@@ -88,17 +88,16 @@ a{
     color: black;
   }
 
-/* GO BACK HERE */
 .myForm {
     margin: 16px;
     padding: 16px;
   }
-  
-  .myForm .form-group {
+
+.myForm .form-group {
     margin-bottom: 16px;
   }
   
-  .myForm label {
+.myForm label {
     display: block;
   }
   
@@ -141,7 +140,7 @@ a{
   .card-header {
     padding: 16px;
     border-bottom: 1px solid black;
-    background-color: aquamarine;
+    background-color: rgb(255, 144, 198);
     color: white;
   }
   
